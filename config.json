@@ -1,0 +1,19 @@
+{
+    "UDPINPORT": 53,
+    "DATABUFFER": 512,
+    "DNSRECORDPATH": "./dnsRecords.json",
+    "ISRECURSIVE": true,
+    "OUTDNSSERVERS":[
+        "<Recursive DNS Adresses>",
+        "<Another One>"
+    ],
+    "UDPOUTPORTMIN":55000,
+    "UDPOUTPORTMAX":56000,
+    "LOGGINGENABLED":true,
+    "DATABASEPATH": "mongodb://************:************@<Server>:27017/DNSLogs?ssl=false",
+    "DATABASEUSERNAME": "************",
+    "DATABASEPASSWORD": "************",
+    "DATABASENAME": "DNSLogs",
+    "DATABASECOLNAME": "Logs",
+    "DNSRECORDSRENEWINTERVAL": 600000000000
+}
